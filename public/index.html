@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#090812"><meta name="description" content="DJ TOMK — VinaHouse, nonstop và những set nhạc mới nhất.">
+  <title>DJ TOMK — Music Experience</title><link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="topbar"><a class="brand" href="/"><span class="brand-mark">TK</span><span>DJ <b>TOMK</b><small>MUSIC EXPERIENCE</small></span></a><nav><a class="active" href="/">Trang chủ</a><a href="#library">Thư viện nhạc</a><a href="/admin">Quản trị</a></nav><span class="live"><i></i> NOW PLAYING</span></header>
+<main>
+<section class="hero"><div class="hero-copy"><p class="eyebrow">THE SOUND OF TOMK</p><h1>FEEL THE<br><span>BEAT.</span></h1><p class="hero-desc">Không chỉ là âm nhạc. Đó là năng lượng của từng nhịp bass.</p><a class="primary-btn" href="#library">Khám phá nhạc <span>↘</span></a><div class="hero-tags"><span>VINAHOUSE</span><span>NONSTOP</span><span>EDM</span></div></div><div class="hero-art"><div class="orb orb-one"></div><div class="orb orb-two"></div><div class="disc"><div class="disc-center">TK</div></div><div class="art-caption">DJ TOMK <span>▲ SOUND ON</span></div></div></section>
+<section id="library" class="library"><div class="section-head"><div><p class="eyebrow">YOUR NEXT FAVORITE TRACK</p><h2>Thư viện <span>âm nhạc</span></h2></div><span id="track-count" class="count">0 TRACKS</span></div><div class="filters"><input id="search" type="search" placeholder="Tìm tên bài, DJ, thể loại…"><select id="genre"><option value="">Tất cả thể loại</option><option>VinaHouse</option><option>Nonstop</option><option>EDM</option><option>Remix</option></select></div><div id="track-list" class="track-list"><div class="empty-state">Đang tải thư viện nhạc…</div></div></section>
+<section class="bottom-banner"><div><p class="eyebrow">MADE FOR MUSIC LOVERS</p><h2>Turn it up.<br><span>Live the moment.</span></h2></div><div class="equalizer" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></section>
+</main>
+<footer><a class="brand small-brand" href="/"><span class="brand-mark">TK</span><span>DJ <b>TOMK</b><small>MUSIC EXPERIENCE</small></span></a><span>© <span id="year"></span> DJ TOMK. Made for the beat.</span><a href="/admin">ADMIN ↗</a></footer>
+<div class="player" id="player"><div class="player-track"><div class="mini-cover">TK</div><div><strong id="now-title">Chọn một bài nhạc</strong><small id="now-artist">DJ TOMK</small></div></div><div class="player-controls"><button id="prev" aria-label="Bài trước">Ⅱ</button><button id="play" class="play-button" aria-label="Phát hoặc tạm dừng">▶</button><button id="next" aria-label="Bài tiếp">≫</button></div><div class="timeline"><span id="current-time">0:00</span><input id="seek" type="range" min="0" max="100" value="0"><span id="duration">0:00</span></div><audio id="audio" preload="metadata"></audio></div>
+<script src="/app.js"></script></body></html>
